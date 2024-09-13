@@ -1,11 +1,10 @@
-function compareWords(word1, word2) {
-    let length1 = word1.length;
-    let length2 = word2.length;
-    if (length1 === length2) {
+function compareWords() {
+    let word1 = prompt("ჩაწერეთ პირველი სიტყვა:");
+    let word2 = prompt("ჩაწერეთ მეორე სიტყვა:");
+    if (word1.length === word2.length) {
         alert(true);
     } else {
         alert(false);
     }
 }
-compareWords("Javascript", "Python");
-
+compareWords();
